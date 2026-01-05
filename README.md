@@ -31,22 +31,15 @@ Collaborative-Filtering-Python/
   - pandas
   - numpy
 
-Il est recommandé d'utiliser un environnement virtuel (venv, conda, etc.).
 
 Installation rapide :
 ```bash
-# créer et activer un environnement virtuel (optionnel mais recommandé)
-python -m venv .venv
-# sous macOS / Linux
-source .venv/bin/activate
-# sous Windows (PowerShell)
-.venv\Scripts\Activate.ps1
 
 # installer les dépendances
 pip install pandas numpy
 ```
 
-Si vous voulez, je peux préparer un fichier `requirements.txt` contenant les dépendances.
+
 
 ---
 
@@ -85,23 +78,4 @@ Recommendations for user 123:
 
 ---
 
-## Bonnes pratiques & améliorations possibles
 
-- Normaliser les notes par utilisateur (centrage) avant calcul de similarité.
-- Tester plusieurs mesures de similarité (cosinus, corrélation de Pearson).
-- Ajouter filtrage ou un seuil pour éviter recommandations basées sur très peu de votes.
-- Implémenter une version Item-Based Collaborative Filtering pour comparaison.
-- Ajouter des tests unitaires et un notebook d'exploration (facultatif).
-
----
-
-## Licence & Auteurs
-
-- Auteur : Senku819
-- Licence : à préciser (MIT, GPL, etc.) — ajoutez un fichier `LICENSE` si nécessaire.
-
----
-
-## Contact
-
-Pour toute question ou demande d'amélioration, ouvrez une issue sur le dépôt GitHub ou contactez l'auteur directement.
