@@ -58,8 +58,8 @@ Ouvrir un terminal dans le dossier du projet puis lancer :
 python Recommendation_System.py
 ```
 
-Arguments ou configuration
-- Si votre script accepte des arguments (chemin vers les fichiers, identifiant d'utilisateur, nombre de recommendations, etc.), précisez-les dans le script ou passez-les en ligne de commande selon l'implémentation actuelle.
+ configuration
+
 - Par défaut, le script suppose que les fichiers sont dans `ml-latest-small/ratings.csv` et `ml-latest-small/movies.csv`. Modifiez les chemins dans le script si nécessaire.
 
 ---
