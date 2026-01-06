@@ -45,7 +45,7 @@ pip install pandas numpy
 
 ## Données (MovieLens)
 
-Les fichiers `ratings.csv` et `movies.csv` proviennent du jeu de données MovieLens (version "ml-latest-small"). Vous pouvez le télécharger depuis la page officielle : [MovieLens datasets](https://grouplens.org/datasets/movielens/).
+Les fichiers `ratings.csv` et `movies.csv` proviennent du jeu de données MovieLens (version "ml-latest-small"). Vous pouvez le télécharger depuis la page officielle : [MovieLens datasets](https://files.grouplens.org/datasets/movielens/ml-latest-small.zip).
 
 Placez `ratings.csv` et `movies.csv` dans le dossier `ml-latest-small/` à la racine du projet.
 
